@@ -13,4 +13,7 @@ class P86491 {
 
         return longMax*shortMax
     }
+
+    fun solution2(sizes: Array<IntArray>) =
+        sizes.map { it.maxOf{it} }.maxOf{it} * sizes.map { it.minOf{it} }.maxOf{it}
 }
