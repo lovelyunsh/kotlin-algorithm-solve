@@ -11,6 +11,7 @@ class P86491 {
             shortMax = maxOf(it.minOf{it},shortMax)
         }
 
+
         return longMax*shortMax
     }
 
