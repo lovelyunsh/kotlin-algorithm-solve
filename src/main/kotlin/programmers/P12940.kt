@@ -22,7 +22,7 @@ class P12940 {
         }
     }
 
-    fun LCM(n1: Int, n2: Int, gcd: Int):Int {
-        return n1 * n2 / gcd
+    fun LCM(n: Int, m: Int, gcd: Int):Int {
+        return n * m / gcd
     }
 }
